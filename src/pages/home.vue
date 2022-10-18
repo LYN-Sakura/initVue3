@@ -1,7 +1,5 @@
 <template>
-  <n-message-provider>
-    <n-button type="primary" @click="clickBtn">{{ counter.count }}</n-button></n-message-provider
-  >
+  <n-button type="primary" @click="clickBtn">{{ counter.count }}</n-button>
 </template>
 <script setup lang="ts">
 import { useIndexStore } from "@/store/index";
